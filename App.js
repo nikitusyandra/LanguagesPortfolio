@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, FlatList, StyleSheet } from 'react-native';
-import LanguageItem from './LanguageItem';
+import LanguageItem from './LangItem';
 
 const langs = [
   { id: '1', lang: 'JavaScript', experience: 3 },

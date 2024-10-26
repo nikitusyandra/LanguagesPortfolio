@@ -4,10 +4,10 @@ import { View, Text, Image, StyleSheet } from 'react-native';
 const LanguageItem = ({ language, experience }) => {
   return (
     <View style={styles.container}>
-      <Image style={styles.logo} source={{ uri: 'URL логотипа' }} />
+      <Image style={styles.logo} source={{ uri: 'https://avatars.mds.yandex.net/i?id=fd3fab716fe638f4541567fe702a7c8db9f768c6-12613260-images-thumbs&n=13' }} />
       <View>
         <Text style={styles.language}>{language}</Text>
-        <Text style={styles.experience}>Опыт: {experience} лет</Text>
+        <Text style={styles.experience}>Опыт: {experience} года</Text>
       </View>
     </View>
   );
